@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Examples\Example1\Example1.cpp" />
+    <ClCompile Include="Examples\ExampleEditor\BorderBox.cpp" />
+    <ClCompile Include="Examples\ExampleEditor\ExampleEditor.cpp" />
+    <ClCompile Include="Examples\ExampleEditor\Grid.cpp" />
+    <ClCompile Include="Examples\ExampleEditor\EditorBox.cpp" />
+    <ClCompile Include="Examples\ExampleSprite\ExampleSprite.cpp" />
+    <ClCompile Include="Examples\ExamplesUI\ExampleModifier.cpp" />
+    <ClCompile Include="Examples\ExamplesUI\ExampleUI.cpp" />
+    <ClCompile Include="Examples\ExampleTgcBox\ExampleTgcBox.cpp" />
+    <ClCompile Include="Examples\ExampleVB\ExampleVB.cpp" />
+    <ClCompile Include="Examples\ExampleVoxel\ExampleVoxel.cpp" />
+    <ClCompile Include="Examples\ExampleVoxel\TgcVoxel.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcAnimatedSprite.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcFont.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcFontRenderer.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcSprite.cpp" />
+    <ClCompile Include="TgcViewer\2D\TgcText2d.cpp" />
+    <ClCompile Include="TgcViewer\Example\TgcExample.cpp" />
+    <ClCompile Include="TgcViewer\GuiController.cpp" />
+    <ClCompile Include="TgcViewer\Input\TgcFpsCamera.cpp" />
+    <ClCompile Include="TgcViewer\Input\TgcInput.cpp" />
+    <ClCompile Include="TgcViewer\Math\Color.cpp" />
+    <ClCompile Include="TgcViewer\Math\FastMath.cpp" />
+    <ClCompile Include="TgcViewer\Math\Matrix4.cpp" />
+    <ClCompile Include="TgcViewer\Math\Vector2.cpp" />
+    <ClCompile Include="TgcViewer\Math\Vector3.cpp" />
+    <ClCompile Include="TgcViewer\Math\Vector4.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Effect.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10IndexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10InputLayout.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Renderer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Shaders.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Texture.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10VertexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Effect.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11IndexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11InputLayout.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Renderer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Shaders.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Texture.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11VertexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcEffect.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcIndexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcInputLayout.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcRenderer.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcRendererFactory.cpp" />
+    <ClCompile Include="TgcViewer\Renderer\TgcVertexBuffer.cpp" />
+    <ClCompile Include="TgcViewer\Shaders\TgcShaders.cpp" />
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcBoundingBox.cpp" />
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcBox.cpp" />
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcDebugBox.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcMesh.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcParserUtils.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcScene.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneData.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneLoader.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneParser.cpp" />
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcTexture.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiButton.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiCheckBox.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGui.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiItem.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiSlider.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcBoolModifier.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcButtonModifier.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcFloatModifier.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcModifierItem.cpp" />
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcModifiers.cpp" />
+    <ClCompile Include="TgcViewer\Ui\TgcLogger.cpp" />
+    <ClCompile Include="TgcViewer\Ui\TgcUserVars.cpp" />
+    <ClCompile Include="TgcViewer\Window\TgcWindowHandler.cpp" />
+    <ClCompile Include="TgcViewer\Window\Windows\Win32WindowHandler.cpp" />
+    <ClCompile Include="TgcViewer\Xml\pugixml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Examples\Example1\Example1.h" />
+    <ClInclude Include="Examples\ExampleEditor\BorderBox.h" />
+    <ClInclude Include="Examples\ExampleEditor\ExampleEditor.h" />
+    <ClInclude Include="Examples\ExampleEditor\Grid.h" />
+    <ClInclude Include="Examples\ExampleEditor\EditorBox.h" />
+    <ClInclude Include="Examples\ExampleSprite\ExampleSprite.h" />
+    <ClInclude Include="Examples\ExamplesUI\ExampleModifier.h" />
+    <ClInclude Include="Examples\ExamplesUI\ExampleUI.h" />
+    <ClInclude Include="Examples\ExampleTgcBox\ExampleTgcBox.h" />
+    <ClInclude Include="Examples\ExampleVB\ExampleVB.h" />
+    <ClInclude Include="Examples\ExampleVoxel\ExampleVoxel.h" />
+    <ClInclude Include="Examples\ExampleVoxel\TgcVoxel.h" />
+    <ClInclude Include="Examples\TgcViewerIncludes.h" />
+    <ClInclude Include="TgcViewer\2D\TgcAnimatedSprite.h" />
+    <ClInclude Include="TgcViewer\2D\TgcFont.h" />
+    <ClInclude Include="TgcViewer\2D\TgcFontRenderer.h" />
+    <ClInclude Include="TgcViewer\2D\TgcSprite.h" />
+    <ClInclude Include="TgcViewer\2D\TgcText2d.h" />
+    <ClInclude Include="TgcViewer\Example\TgcExample.h" />
+    <ClInclude Include="TgcViewer\globals.h" />
+    <ClInclude Include="TgcViewer\GuiController.h" />
+    <ClInclude Include="TgcViewer\GuiControllerConfig.h" />
+    <ClInclude Include="TgcViewer\Input\TgcFpsCamera.h" />
+    <ClInclude Include="TgcViewer\Input\TgcInput.h" />
+    <ClInclude Include="TgcViewer\Math\Color.h" />
+    <ClInclude Include="TgcViewer\Math\FastMath.h" />
+    <ClInclude Include="TgcViewer\Math\Matrix4.h" />
+    <ClInclude Include="TgcViewer\Math\Vector2.h" />
+    <ClInclude Include="TgcViewer\Math\Vector3.h" />
+    <ClInclude Include="TgcViewer\Math\Vector4.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Effect.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10IndexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10InputLayout.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Renderer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Shaders.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Texture.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10VertexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Effect.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11IndexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11InputLayout.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Renderer.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Shaders.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Texture.h" />
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11VertexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcEffect.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcIndexBuffer.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcInputLayout.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcRenderer.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcRendererFactory.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcRendererGlobals.h" />
+    <ClInclude Include="TgcViewer\Renderer\TgcVertexBuffer.h" />
+    <ClInclude Include="TgcViewer\Shaders\TgcShaders.h" />
+    <ClInclude Include="TgcViewer\stdafx.h" />
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcBoundingBox.h" />
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcBox.h" />
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcDebugBox.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcMesh.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcParserUtils.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcScene.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneData.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneLoader.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneParser.h" />
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcTexture.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiButton.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiCheckBox.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGui.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiItem.h" />
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiSlider.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcBoolModifier.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcButtonModifier.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcFloatModifier.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcModifierItem.h" />
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcModifiers.h" />
+    <ClInclude Include="TgcViewer\Ui\TgcLogger.h" />
+    <ClInclude Include="TgcViewer\Ui\TgcUserVars.h" />
+    <ClInclude Include="TgcViewer\Window\TgcWindowHandler.h" />
+    <ClInclude Include="TgcViewer\Window\Windows\Win32WindowHandler.h" />
+    <ClInclude Include="TgcViewer\Xml\pugiconfig.hpp" />
+    <ClInclude Include="TgcViewer\Xml\pugixml.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14E8FF25-5BB2-436D-BF96-FF4DC8920CB1}</ProjectGuid>
+    <RootNamespace>tgcviewercpp</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir);$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(ProjectDir)\TgcViewer\OpenGL\TextureLoader;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)</OutDir>
+    <IncludePath>$(ProjectDir);$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(ProjectDir)\TgcViewer\OpenGL\TextureLoader;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

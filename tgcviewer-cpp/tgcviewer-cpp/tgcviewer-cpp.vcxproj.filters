@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Input\TgcInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\TgcRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\TgcRendererFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\GuiController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Example1\Example1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Xml\pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcParserUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcBoundingBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\TgcVertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\TgcIndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Math\FastMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Math\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Math\Vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Math\Matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Math\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Math\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\TgcInputLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11InputLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\TgcEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Effect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\TgcLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Shaders\TgcShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX11\TgcDX11Shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Example\TgcExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Effect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10InputLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Shaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Renderer\DirectX10\TgcDX10VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcSceneLoader\TgcSceneData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Input\TgcFpsCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleVB\ExampleVB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleVoxel\ExampleVoxel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleVoxel\TgcVoxel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleEditor\ExampleEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleEditor\Grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleEditor\BorderBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleEditor\EditorBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleTgcBox\ExampleTgcBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\TgcGeometry\TgcDebugBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\2D\TgcSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExampleSprite\ExampleSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\2D\TgcAnimatedSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\2D\TgcText2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\2D\TgcFontRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\2D\TgcFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\TgcUserVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExamplesUI\ExampleUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiCheckBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Gui\TgcGuiSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcModifiers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcModifierItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcBoolModifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\ExamplesUI\ExampleModifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcFloatModifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Ui\Modifiers\TgcButtonModifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Window\Windows\Win32WindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TgcViewer\Window\TgcWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TgcViewer\Example\TgcExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\GuiController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Input\TgcInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\TgcRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\TgcRendererFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\Example1\Example1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Xml\pugiconfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Xml\pugixml.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcSceneData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcParserUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcBoundingBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcSceneLoader\TgcTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\TgcVertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\TgcIndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\TgcRendererGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Math\FastMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Math\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Math\Vector4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Math\Matrix4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Math\Vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Math\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\TgcInputLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11InputLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\TgcEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\TgcLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Shaders\TgcShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX11\TgcDX11Shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Effect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10InputLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Renderer\DirectX10\TgcDX10Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Input\TgcFpsCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\TgcViewerIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleVB\ExampleVB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleVoxel\ExampleVoxel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleVoxel\TgcVoxel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleEditor\ExampleEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleEditor\Grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleEditor\BorderBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleEditor\EditorBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleTgcBox\ExampleTgcBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\TgcGeometry\TgcDebugBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\2D\TgcSprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExampleSprite\ExampleSprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\2D\TgcAnimatedSprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\2D\TgcText2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\2D\TgcFontRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\2D\TgcFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\TgcUserVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExamplesUI\ExampleUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiCheckBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Gui\TgcGuiSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcModifiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcModifierItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcBoolModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Examples\ExamplesUI\ExampleModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcFloatModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Ui\Modifiers\TgcButtonModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Window\Windows\Win32WindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\Window\TgcWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TgcViewer\GuiControllerConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
